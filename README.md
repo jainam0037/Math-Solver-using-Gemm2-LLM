@@ -18,25 +18,19 @@ This project is a Streamlit-based application that allows users to chat with a S
 
 ## Overview
 
-This project showcases the integration of powerful tools like LangChain, Groq's Gemma2-9b LLM, and Streamlit to create an interactive mathematical problem solver and database query tool. Users can ask mathematical questions or query SQL databases in a natural language, and the system provides detailed responses by leveraging large language models (LLMs) and database agents. The project is aimed at demonstrating the power of combining natural language processing (NLP) with structured data querying.
+This project showcases the integration of powerful tools like LangChain, Groq's Gemma2-9b LLM, and Streamlit to create an interactive mathematical problem solver and database query tool. Users can ask mathematical questions and the system provides detailed responses by leveraging large language models (LLMs) agents. The project is aimed at demonstrating the power of combining natural language processing (NLP) with structured data querying.
 
 ## Description
 
-The Math Solver project enables users to interact with a SQL database and solve complex mathematical questions by communicating with the Groq LLM through an intuitive Streamlit-based chat interface. 
+The Math Solver project enables users to interact and solve complex mathematical questions by communicating with the Groq LLM through an intuitive Streamlit-based chat interface. 
 
 Key features include:
 - Solving mathematical problems using LangChain's zero-shot agents.
-- Chatting with a local SQLite3 or remote MySQL database to retrieve information.
 - Dynamic UI where users can switch between databases, input API keys, and interact with the system effortlessly.
-
-By using the Groq API, the agent can break down complex questions into simple steps and present a detailed explanation in response to user queries. This makes the tool not only practical for solving equations but also for teaching concepts through detailed, logical explanations.
-
-
-## Features
-- Solve mathematical questions with detailed explanations.
 - Integration with Groq's `Gemma2-9b` model using LangChain.
 - Streamlit-based UI for interaction.
 - Support for adding API keys dynamically.
+By using the Groq API, the agent can break down complex questions into simple steps and present a detailed explanation in response to user queries. This makes the tool not only practical for solving equations but also for teaching concepts through detailed, logical explanations.
 
 ## Technologies
 - **Python 3.9+**
